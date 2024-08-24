@@ -1,0 +1,122 @@
+.header{
+    display: flex;
+    justify-content: center;
+    
+}
+.header div{
+    margin: 15px;
+    cursor: pointer;
+}
+.header-span{
+    font-weight: 500;
+}
+
+section{
+    
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    border: 5px solid rgb(71, 192, 222);
+    width: 270px;
+    height: 350px;
+    /* border-radius: 350px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.p-welcome{
+    color: rgb(71, 192, 222);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -40px;
+}
+h1 pre span{
+    color: rgb(209, 136, 79);
+}
+h1 pre{
+    font-family: "Rubik", sans-serif;
+    color: rgb(2, 141, 176);
+    font-weight: 700;
+    font-size: 50px;
+}
+h5 pre{
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    margin-top: -40px;
+
+}
+
+.btn{
+    padding: 5px 40px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+}
+.seemore{
+    color: rgb(71, 192, 222);
+    cursor: pointer;
+}
+/* ------------------------media query---------------------- */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    section{
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    .my-image{
+        margin-top: 20px;
+    }
+    h1 pre{
+        font-family: "Rubik", sans-serif;
+        color: rgb(2, 141, 176);
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .btn{
+        
+        padding: 5px 20px;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+    }
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:812px) {
+    section{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+        
+    }
+    
+    .my-image{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    h1 pre{
+        font-family: "Rubik", sans-serif;
+        color: rgb(2, 141, 176);
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .btn{
+        margin-top: -20px;
+        
+        padding: 5px 20px;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+    }
+    
+}
+
+
+
